@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'light';
+    src: url('../fonts/Mulish-Light.eot');
+    src: url('../fonts/Mulish-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mulish-Light.woff') format('woff'),
+        url('../fonts/Mulish-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/Mulish-Bold.eot');
+    src: url('../fonts/Mulish-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mulish-Bold.woff') format('woff'),
+        url('../fonts/Mulish-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../fonts/Mulish-Regular.eot');
+    src: url('../fonts/Mulish-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mulish-Regular.woff') format('woff'),
+        url('../fonts/Mulish-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f7f8fc;
+}
+a {
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	display: flex;
+}
+

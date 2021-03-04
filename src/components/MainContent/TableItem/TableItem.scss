@@ -1,0 +1,67 @@
+.table-item {
+	display: flex;
+	align-items: center;
+	padding: 24px 32px;
+	border-bottom: 1px solid #dfe0eb;
+	&:hover {
+		background-color: rgba(55, 81, 255, 0.04);
+		transition: all ease 0.3s;
+	}
+	h5 {
+		font-family: 'regular';
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 0.2px;
+		color: #252733;
+	}
+	h6 {
+		font-family: 'light';
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 16px;
+		letter-spacing: 0.1px;
+		color: #C5C7CD;
+	}
+	h3 {
+		font-family: 'bold';
+		font-weight: bold;
+		font-size: 11px;
+		line-height: 14px;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		padding: 5px 12px;
+		background: #29CC97;
+		border-radius: 100px;
+		display: inline-block;
+	}
+	.item-left {
+		display: flex;
+		align-items: center;
+		width: 35%;
+		img {
+			width: 44px;
+			height: 44px;
+			object-fit: cover;
+			border-radius: 55px;
+			margin-right: 24px;
+		}
+
+	}
+	.item-right {
+		display: flex;
+		align-items: center;
+		width: 65%;
+		.customer-name {
+			width: 35%;
+		}
+		.customer-date {
+			width: 35%;
+		}
+		.table-tag {
+			width: 20%;
+		}
+	}
+}
+
